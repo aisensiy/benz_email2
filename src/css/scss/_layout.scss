@@ -3,11 +3,11 @@
 ------------------------------------- */
 
 body{
-  background-color: $grey;
+  background-color: #f6f6f6;
 }
 
 .body {
-  background-color: $grey;
+  background-color: #f6f6f6;
   width: 100%;
 }
 
@@ -15,7 +15,7 @@ body{
 .container {
   display: block;
   margin: 0 auto !important; /* makes it centered */
-  max-width: $width;
+  width: $width;
   padding: 10px;
   width: auto !important;
   width: $width;
@@ -35,7 +35,7 @@ body{
 ------------------------------------- */
 
 .main {
-  background: #fff;
+  background: $grey;
   border: 1px solid darken($grey, 5);
   border-radius: $br;
   width: 100%;
@@ -67,5 +67,68 @@ body{
 
   td {
     padding: 20px 0;
+  }
+}
+
+.sideimg {
+  float: left;
+  width: 28%;
+}
+
+.txt {
+  width: 72%;
+  float: right;
+}
+
+.border {
+  padding: 10px;
+  border: 1px solid #b4b4b4;
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 10px;
+  position: relative;
+
+  .readmore {
+    width: 90px;
+    display: block;
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+  }
+}
+
+.list-title {
+  margin-bottom: 10px;
+}
+
+.prev-box {
+  margin-top: 6px;
+  ul {
+    border-style: solid;
+    border-color: #b4b4b4;
+    border-width: 0 1px 1px 1px;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    li {
+      font-size: 13px;
+      color: #333;
+      line-height: 2.5em;
+      a {
+        color: #333;
+      }
+      margin: 0;
+    }
+  }
+}
+
+.emarketing {
+  position: relative;
+  .readmore {
+    float: none;
+    margin-right: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
   }
 }
