@@ -1,0 +1,112 @@
+/* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+
+@font-face {
+  font-family: corpos;
+  src: url('http://7xims5.com1.z0.glb.clouddn.com/font_CorpoS.ttf');
+}
+
+
+@font-face {
+  font-family: corpoa;
+  src: url('http://7xims5.com1.z0.glb.clouddn.com/font_corpoa.ttf');
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #000 !important;
+  font-family: corpoa, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 14px;
+  font-weight:500;
+}
+
+p,
+ul,
+ol {
+  font-family: corpoa, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 12px;
+  padding-left: 0;
+
+  li {
+    list-style: none;
+    margin-bottom: 14px;
+  }
+}
+
+a {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+.color-title {
+  color: #6a99ca !important;
+}
+
+.end {
+  font-size: 40px;
+  color: #7ebbc3;
+  text-decoration: underline;
+}
+
+.special {
+  color: #7b4e17 !important;
+  font-size: 22px;
+}
+
+.issue {
+  margin-bottom: 15px;
+  border-bottom: 3px solid gray;
+}
+
+p {
+  text-indent: 2em;
+}
+
+.no-indent {
+  text-indent: 0em !important;
+}
+
+.title-container {
+  position: relative;
+}
+
+.title {
+  background-color: white;
+  margin-left: 3em;
+  width: 5em;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.mid {
+  position: absolute;
+  top: 42%;
+  z-index: 0;
+  border: 2px solid gray;
+  width: 100%;
+}

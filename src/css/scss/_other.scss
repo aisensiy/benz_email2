@@ -1,0 +1,72 @@
+/* -------------------------------------
+    OTHER STYLES THAT MIGHT BE USEFUL
+------------------------------------- */
+
+.last {
+  margin-bottom: 0;
+}
+
+.first {
+  margin-top: 0;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+// Preheader text is displayed in certain clients as a preview but not shown when the user opens the email
+.preheader {
+  color: transparent;
+  display: none;
+  height: 0;
+  max-height: 0;
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  mso-hide: all;
+  visibility: hidden;
+  width: 0;
+}
+
+.ExternalClass div.video_holder {display:none !important;}
+.ExternalClass div.android {display:block !important;width:100% !important;height:200px !important;}
+
+#outlook div.video_holder {display:none !important;}
+#outlook div.android {display:block !important;width:100% !important;height:200px !important;}
+
+.first-letter {
+  margin-top: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+.list {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAZCAYAAADAHFVeAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAABJRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iCiAgICAgICAgICAgIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIj4KICAgICAgICAgPHhtcE1NOkRlcml2ZWRGcm9tIHJkZjpwYXJzZVR5cGU9IlJlc291cmNlIj4KICAgICAgICAgICAgPHN0UmVmOmluc3RhbmNlSUQ+eG1wLmlpZDpGOTdGMTE3NDA3MjA2ODExODcxRkQyOUM1MTUxQ0M5Qzwvc3RSZWY6aW5zdGFuY2VJRD4KICAgICAgICAgICAgPHN0UmVmOmRvY3VtZW50SUQ+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjI3OGZkMGM5LTFlYzQtMTE3OC1iOGY3LWI3ZDBlYTdlZThlYzwvc3RSZWY6ZG9jdW1lbnRJRD4KICAgICAgICAgPC94bXBNTTpEZXJpdmVkRnJvbT4KICAgICAgICAgPHhtcE1NOkRvY3VtZW50SUQ+eG1wLmRpZDoyRjYyRTlDNURDNkQxMUU0OEJBOUY0QzdEQzhFREJDNzwveG1wTU06RG9jdW1lbnRJRD4KICAgICAgICAgPHhtcE1NOkluc3RhbmNlSUQ+eG1wLmlpZDoyRjYyRTlDNERDNkQxMUU0OEJBOUY0QzdEQzhFREJDNzwveG1wTU06SW5zdGFuY2VJRD4KICAgICAgICAgPHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD54bXAuZGlkOjNkNjIxZDI0LWNiMGQtNGQ2NS1hYmQzLTZkMjQwNTk2ZTY1NDwveG1wTU06T3JpZ2luYWxEb2N1bWVudElEPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8eG1wOkNyZWF0b3JUb29sPkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE0IChNYWNpbnRvc2gpPC94bXA6Q3JlYXRvclRvb2w+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpJcFoaAAADPUlEQVRIDb2VW08TQRTHz17apUAt1+AVU/DBmIgB9MUXv4CfQ41EP4gvPmAUFL+Nl8QECQ/CC0JJaCRFbrb0tt1Z/2dmp92Wsm19cJp2290z53f+Z/4zNXwM+k/D7Jkja/u3+nqCySYYBurjN4/eoF3DfF+QAdBpbpMOMp8Vi6E9rIIdzIq8KJBJ+cMt2l1folr1COIMGr/5UF6VQq324lQdlYVBO98XpRDbmaC9jRXKZb40FHbR0khYGJRZe0O+8MkwYwD4ZNlDlN1cQUtDwA4tvRCmQYWjbdpZWyThYc2sOPlehTz3BEAB4DDtMXA3ALJ5IoBtYRpUyv+izPp7ADwy7QR51UMaHLtPdx69Iqf/KglRIis2QtmNjwB+VS2NAJ6DhUHbq+9ghjwU9aHgGjwRI7eco+JplrxaEV7k6T4KSck17ARsgvE+MgyTWNH26lskPiDTSiCfhze30aF4/2XAduHCYGrQNgvALEzTBGwxTR2mQAaVC/sB6DcqHlAgbpBhkaidkZMYp2u3H1O8bxxtLAdQtbmVwg8NYH3zqw5LmAaxoq1vr8mtHDeDZCwSAnh2vIm1K6jZ+n7oasVgmh/L2Baf1N2QYerK+IlpxrHgKaipycDzH7w+aCuboO1gNwq03oFTEdcyJIyPIVbnDIzS9IMF6htMw95/kDR8wCiALzy5rhyvhgabyOGBVaTJmec0en0eYPaAfg4xGq6AAmuRoqn5p5RITpNwTxGsgZzcIDs+gLWroAMOfvN0bi+DBL6WJGj4yj1ZfGsHDFTIo16Btn61dAKjLFM5/1O2lq3PcU7/BNoUwyZ3qVLcB8eGGrRdghZIg5SghioWJWH8JTxagSUAbawlA4WoIjFUQI3J+w8ggzy6cfcJQDOyoHYgzt8Wxg9agQ2F2HPIxi/hVWFQg9KzLyg5eisANavhXHpcCOOAViArtGKX+AkUubL16TkN4v+7ugV0/qZrJIwjm4FL2PQZdaqgdenZl5QcY0WdQZwruhQEcLWcLJ4YgkufYXtMQtUZped6AzGsozIO4qGrLxdy5OIESY5M4V7DxSoq+rNrmAI2kvcK4vl6x0aXFDzVJw3/DJ8MXU1G0F/SHsluIu/Q4QAAAABJRU5ErkJggg==') no-repeat left top;
+  text-indent: 2em;
+  /* reset styles (optional): */
+  list-style: none;
+}
+
+.detail {
+  color: #d3bd6a !important;
+}

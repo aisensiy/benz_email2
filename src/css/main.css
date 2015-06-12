@@ -1,0 +1,391 @@
+/* -------------------------------------
+    CONFIGURE YOUR VARIABLES
+------------------------------------- */
+/* -------------------------------------
+    GLOBAL RESETS
+------------------------------------- */
+table,
+td,
+div,
+a {
+  box-sizing: border-box;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  height: 100% !important;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  width: 100% !important;
+}
+
+table {
+  -premailer-width: 100%;
+  border-collapse: separate !important;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+table td {
+  vertical-align: top;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+.ExternalClass {
+  width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+/* -------------------------------------
+    BODY & CONTAINER
+------------------------------------- */
+body {
+  background-color: #f6f6f6;
+}
+
+.body {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+  display: block;
+  margin: 0 auto !important;
+  /* makes it centered */
+  max-width: 840px;
+  padding: 10px;
+  width: auto !important;
+  width: 840px;
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+  display: block;
+  margin: 0 auto;
+  max-width: 840px;
+  padding: 10px;
+}
+
+/* -------------------------------------
+    HEADER, FOOTER, MAIN
+------------------------------------- */
+.main {
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.content-block {
+  padding: 0 0 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.footer {
+  clear: both;
+  width: 100%;
+}
+.footer * {
+  color: #999;
+  font-size: 12px;
+}
+.footer td {
+  padding: 20px 0;
+}
+
+/* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+@font-face {
+  font-family: corpos;
+  src: url("http://7xims5.com1.z0.glb.clouddn.com/font_CorpoS.ttf");
+}
+@font-face {
+  font-family: corpoa;
+  src: url("http://7xims5.com1.z0.glb.clouddn.com/font_corpoa.ttf");
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #000 !important;
+  font-family: corpoa, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+p,
+ul,
+ol {
+  font-family: corpoa, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 12px;
+  padding-left: 0;
+}
+p li,
+ul li,
+ol li {
+  list-style: none;
+  margin-bottom: 14px;
+}
+
+a {
+  color: #348eda;
+  text-decoration: underline;
+}
+
+.color-title {
+  color: #6a99ca !important;
+}
+
+.end {
+  font-size: 40px;
+  color: #7ebbc3;
+  text-decoration: underline;
+}
+
+.special {
+  color: #7b4e17 !important;
+  font-size: 22px;
+}
+
+.issue {
+  margin-bottom: 15px;
+  border-bottom: 3px solid gray;
+}
+
+p {
+  text-indent: 2em;
+}
+
+.no-indent {
+  text-indent: 0em !important;
+}
+
+.title-container {
+  position: relative;
+}
+
+.title {
+  background-color: white;
+  margin-left: 3em;
+  width: 5em;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.mid {
+  position: absolute;
+  top: 42%;
+  z-index: 0;
+  border: 2px solid gray;
+  width: 100%;
+}
+
+/* -------------------------------------
+    BUTTONS
+------------------------------------- */
+.btn {
+  margin-bottom: 15px;
+  width: auto;
+  -premailer-width: auto;
+}
+.btn td {
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.btn a {
+  background-color: #fff;
+  border: solid 1px #348eda;
+  border-radius: 5px;
+  color: #348eda;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 12px 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.btn-primary td {
+  background-color: #348eda;
+}
+.btn-primary a {
+  background-color: #348eda;
+  border-color: #348eda;
+  color: #fff;
+}
+
+/* -------------------------------------
+    OTHER STYLES THAT MIGHT BE USEFUL
+------------------------------------- */
+.last {
+  margin-bottom: 0;
+}
+
+.first {
+  margin-top: 0;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.preheader {
+  color: transparent;
+  display: none;
+  height: 0;
+  max-height: 0;
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  mso-hide: all;
+  visibility: hidden;
+  width: 0;
+}
+
+.ExternalClass div.video_holder {
+  display: none !important;
+}
+
+.ExternalClass div.android {
+  display: block !important;
+  width: 100% !important;
+  height: 200px !important;
+}
+
+#outlook div.video_holder {
+  display: none !important;
+}
+
+#outlook div.android {
+  display: block !important;
+  width: 100% !important;
+  height: 200px !important;
+}
+
+.first-letter {
+  margin-top: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+.list {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAZCAYAAADAHFVeAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAABJRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iCiAgICAgICAgICAgIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIj4KICAgICAgICAgPHhtcE1NOkRlcml2ZWRGcm9tIHJkZjpwYXJzZVR5cGU9IlJlc291cmNlIj4KICAgICAgICAgICAgPHN0UmVmOmluc3RhbmNlSUQ+eG1wLmlpZDpGOTdGMTE3NDA3MjA2ODExODcxRkQyOUM1MTUxQ0M5Qzwvc3RSZWY6aW5zdGFuY2VJRD4KICAgICAgICAgICAgPHN0UmVmOmRvY3VtZW50SUQ+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjI3OGZkMGM5LTFlYzQtMTE3OC1iOGY3LWI3ZDBlYTdlZThlYzwvc3RSZWY6ZG9jdW1lbnRJRD4KICAgICAgICAgPC94bXBNTTpEZXJpdmVkRnJvbT4KICAgICAgICAgPHhtcE1NOkRvY3VtZW50SUQ+eG1wLmRpZDoyRjYyRTlDNURDNkQxMUU0OEJBOUY0QzdEQzhFREJDNzwveG1wTU06RG9jdW1lbnRJRD4KICAgICAgICAgPHhtcE1NOkluc3RhbmNlSUQ+eG1wLmlpZDoyRjYyRTlDNERDNkQxMUU0OEJBOUY0QzdEQzhFREJDNzwveG1wTU06SW5zdGFuY2VJRD4KICAgICAgICAgPHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD54bXAuZGlkOjNkNjIxZDI0LWNiMGQtNGQ2NS1hYmQzLTZkMjQwNTk2ZTY1NDwveG1wTU06T3JpZ2luYWxEb2N1bWVudElEPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8eG1wOkNyZWF0b3JUb29sPkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE0IChNYWNpbnRvc2gpPC94bXA6Q3JlYXRvclRvb2w+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgpJcFoaAAADPUlEQVRIDb2VW08TQRTHz17apUAt1+AVU/DBmIgB9MUXv4CfQ41EP4gvPmAUFL+Nl8QECQ/CC0JJaCRFbrb0tt1Z/2dmp92Wsm19cJp2290z53f+Z/4zNXwM+k/D7Jkja/u3+nqCySYYBurjN4/eoF3DfF+QAdBpbpMOMp8Vi6E9rIIdzIq8KJBJ+cMt2l1folr1COIMGr/5UF6VQq324lQdlYVBO98XpRDbmaC9jRXKZb40FHbR0khYGJRZe0O+8MkwYwD4ZNlDlN1cQUtDwA4tvRCmQYWjbdpZWyThYc2sOPlehTz3BEAB4DDtMXA3ALJ5IoBtYRpUyv+izPp7ADwy7QR51UMaHLtPdx69Iqf/KglRIis2QtmNjwB+VS2NAJ6DhUHbq+9ghjwU9aHgGjwRI7eco+JplrxaEV7k6T4KSck17ARsgvE+MgyTWNH26lskPiDTSiCfhze30aF4/2XAduHCYGrQNgvALEzTBGwxTR2mQAaVC/sB6DcqHlAgbpBhkaidkZMYp2u3H1O8bxxtLAdQtbmVwg8NYH3zqw5LmAaxoq1vr8mtHDeDZCwSAnh2vIm1K6jZ+n7oasVgmh/L2Baf1N2QYerK+IlpxrHgKaipycDzH7w+aCuboO1gNwq03oFTEdcyJIyPIVbnDIzS9IMF6htMw95/kDR8wCiALzy5rhyvhgabyOGBVaTJmec0en0eYPaAfg4xGq6AAmuRoqn5p5RITpNwTxGsgZzcIDs+gLWroAMOfvN0bi+DBL6WJGj4yj1ZfGsHDFTIo16Btn61dAKjLFM5/1O2lq3PcU7/BNoUwyZ3qVLcB8eGGrRdghZIg5SghioWJWH8JTxagSUAbawlA4WoIjFUQI3J+w8ggzy6cfcJQDOyoHYgzt8Wxg9agQ2F2HPIxi/hVWFQg9KzLyg5eisANavhXHpcCOOAViArtGKX+AkUubL16TkN4v+7ugV0/qZrJIwjm4FL2PQZdaqgdenZl5QcY0WdQZwruhQEcLWcLJ4YgkufYXtMQtUZped6AzGsozIO4qGrLxdy5OIESY5M4V7DxSoq+rNrmAI2kvcK4vl6x0aXFDzVJw3/DJ8MXU1G0F/SHsluIu/Q4QAAAABJRU5ErkJggg==") no-repeat left top;
+  text-indent: 2em;
+  /* reset styles (optional): */
+  list-style: none;
+}
+
+.detail {
+  color: #d3bd6a !important;
+}
+
+/* -------------------------------------
+    RESPONSIVE AND MOBILE FRIENDLY STYLES
+------------------------------------- */
+@media only screen and (max-width: 880px) {
+  table[class=body] h1,
+  table[class=body] h2,
+  table[class=body] h3,
+  table[class=body] h4 {
+    font-weight: 600 !important;
+  }
+  table[class=body] h1 {
+    font-size: 22px !important;
+  }
+  table[class=body] h2 {
+    font-size: 18px !important;
+  }
+  table[class=body] h3 {
+    font-size: 16px !important;
+  }
+  table[class=body] .content,
+  table[class=body] .wrapper {
+    padding: 10px !important;
+  }
+  table[class=body] .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  table[class=body] .btn {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
